@@ -1,0 +1,114 @@
+form {
+  margin: 50px 0 0 0;
+}
+
+form:nth-child(2) {
+  margin: 10px auto;
+}
+.add-title {
+  padding: 0 0 25px;
+  border-bottom: 2px solid #ebebeb;
+  margin-bottom: 25px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.add-title a {
+  color: black;
+  margin-left: 15px;
+}
+
+#one,
+#two {
+  margin-left: 50px;
+}
+.add-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0px;
+}
+.add-row div:nth-child(1) {
+  width: 30%;
+  font-size: 1.2rem;
+  line-height: 45px;
+}
+.add-row div:nth-child(2) {
+  width: 70%;
+}
+
+.add-item input[type="submit"] {
+  color: gray;
+  height: 50px;
+  margin: auto;
+  line-height: 46px;
+  border: 2px solid #ddd;
+  padding: 0 15px;
+  font-size: 14px;
+  width: 200px;
+  background: #f5f5f5;
+}
+
+.add-sizes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-size {
+  width: 120px;
+  display: flex;
+  margin: 5px 0 0;
+}
+.each-size div:nth-child(1) {
+  text-align: center;
+  width: 40px;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+.each-size div:nth-child(2) {
+  width: 70px;
+}
+
+.delete-item {
+  text-align: center;
+  height: 50px;
+  width: 65%;
+  margin: 10px auto;
+}
+.delete-item button {
+  width: 100%;
+  height: 100%;
+}
+.add-item input:hover {
+  background: white;
+}
+
+.clothes-images img {
+  width: 100%;
+  margin-top: 10px;
+  height: 100%;
+}
+
+@media screen and (max-width: 995px) {
+  .add-row div:nth-child(1) {
+    width: 100%;
+  }
+  .add-row div:nth-child(2) {
+    width: 100%;
+  }
+  .delete-item button {
+    margin: 10px 0 100px 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .add-sizes {
+    margin-bottom: 50px;
+  }
+  #one,
+  #two {
+    margin-left: 0px;
+  }
+}

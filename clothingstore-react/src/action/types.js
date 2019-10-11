@@ -1,0 +1,38 @@
+export const GET_ITEMS = "GET_ITEMS";
+export const GET_ITEM = "GET_ITEM";
+export const GET_ERRORS = "GET_ERRORS";
+export const DELETE_ITEM = "DELETE_ITEM";
+export const GET_IMAGES = "GET_IMAGES";
+export const ADD_IMAGES = "ADD_IMAGES";
+export const DELETE_IMAGE = "DELETE_IMAGE";
+export const GET_LIKES = "GET_LIKES";
+export const ADD_ONE_LIKE = "ADD_ONE_LIKE";
+export const DELETE_ONE_LIKE = "DELETE_ONE_LIKE";
+
+export const GET_REVIEWS = "GET_REVIEWS";
+export const ADD_REVIEW = "ADD_REVIEW";
+export const DELETE_REVIEW = "DELETE_REVIEW";
+export const GET_REVIEWS_LIKES = "GET_REVIEWS_LIKES";
+export const ADD_REVIEW_LIKE = "ADD_REVIEW_LIKE";
+export const GET_REVIEWS_REPORTS = "GET_REVIEWS_REPORTS";
+export const ADD_REVIEW_REPORT = "ADD_REVIEW_REPORT";
+export const EDIT_REVIEW = "EDIT_REVIEW";
+
+export const GET_TOP_NAMES = "GET_TOP_NAMES";
+export const GET_TOP_LIKES = "GET_TOP_LIKES";
+export const GET_TOP_TYPES = "GET_TOP_TYPES";
+export const GET_DAY_PRICE = "GET_DAY_PRICE";
+export const GET_WEEK_ONLINE = "GET_WEEK_ONLINE";
+
+export const GET_PRODUCERS = "GET_PRODUCERS";
+export const GET_TYPES = "GET_TYPES";
+export const GET_COUNTRIES = "GET_COUNTRIES";
+
+export const GET_ORDER = "GET_ORDER";
+export const GET_CUSTOMER_ORDERS = "GET_CUSTOMER_ORDERS";
+export const GET_ORDER_BY_UNIQUE_ID = "GET_ORDER_BY_UNIQUE_ID";
+export const DELETE_ITEM_FROM_ORDER = "DELETE_ITEM_FROM_ORDER";
+export const DELETE_ALL_FROM_ORDER = "DELETE_ALL_FROM_ORDER";
+
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const GET_ADMIN_ELEMENTS = "GET_ADMIN_ELEMENTS";

@@ -1,0 +1,15 @@
+.search-users span {
+  font-size: 1.3rem;
+}
+.search-users input {
+  margin: 5px 0 10px 0;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}

@@ -1,0 +1,36 @@
+.admin-buttons,
+.content {
+  margin-top: 50px;
+}
+
+.content .table {
+  margin: 0;
+}
+
+.list-group {
+  float: right;
+  width: 50%;
+}
+
+.content img {
+  width: 25px;
+  height: 25px;
+}
+.content a {
+  color: grey;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  .list-group {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .content .table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
